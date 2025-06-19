@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font: 400 16px/1.5 'lato', sans-serif;
+    color: #484848;
+}
+
+h1,h2,h3,h4{
+    font-family: 'poppins',sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+img{
+    display: block;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    font: right;
+}
+
+.clear{
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+
+.centertext{
+    text-align: center;
+}
+
+/*-----------------*/
+
+
+.container{
+    width: 98%;
+    max-width: 1168px;
+    margin: auto;
+    text-align: center;
+
+}
+
+#topheader{
+    height: 42px;
+    background-color: #ffcb0f;
+    color: #222533;
+    line-height: 42px;
+}
+
+#topheader a{
+    color: #222533;
+}
+
+#topheader a:hover{
+    color: blue;
+}
+
+#topheader ul.info li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#topheader ul.info li i{
+    margin-right: 4px;
+}
+
+#topheader ul.smedia li{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+#topheader ul.smedia li span{
+    display: none;
+}
+
+#navarea{
+    background-color: #222533;
+    width: auto;
+    height: 80px;
+}
+
+
+ul li{
+    display: inline-block;
+    color:rgb(21, 21, 21);
+  
+}
+.logo{
+    padding-top: 20px;
+    
+}
+.main{
+    font-size: 100%;
+}
+.main ul li{
+    margin: 5px 20px;
+} 
+.main ul li a{
+    color: white;
+    line-height: 70px;
+    display: inline-block;
+    
+}
+.main ul li a:hover{
+    color: #ffcb0f;
+}  
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.bannercont{
+position: absolute;
+background-color: rgba(0,0,0,0.43);
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+text-align: center;
+color: white;
+}
+.bannercont p.certified{
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 5%;
+}
+.bannercont h1{
+    font-size: 70px;
+    line-height: 72px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 30px ;
+}
+.bannercont h1 span{
+    display: block;
+    color: #ffcb0f;
+
+}
+.bannercont p{
+    font-size: 22px;
+    max-width: 1000px;
+    margin: auto;
+   
+}
+a.btn{
+    display: inline-block;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 30px ;
+    color: #222533;
+    background-color: #ffcb0f;
+    border-radius: 10px;
+
+}
+a.btn:hover{
+    color: aliceblue;
+    background-color: #222533;
+}
+.bannercont a.btn{
+    margin: 60px 30px ;
+}
+
+.panel{
+    padding: 50px 0;
+}
+
+.aboutContent{
+    width: 55%;
+    float: left;
+}
+.aboutContent h2{
+    text-align: left;
+    color: #ffcb0f;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-bottom: 0;
+    line-height: 45px;
+}
+.aboutContent h3{
+    text-align: left;
+}
+.aboutContent p{
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.aboutContent a.btn{
+    margin-left: 0;
+}
+.aboutpic{
+    width: 40%;
+    height: auto;
+    margin-top: 8px;
+    float: right;
+}
+
+.whyUs{
+    background-color: #f2f7fa;
+}
+
+
+.whylist{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:60px;
+    margin-top: 36px;
+    
+}
+
+.whylist img{
+    margin: auto;
+}
+
+.whylist h3{
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.whyUs .container h2{
+    text-align: center;
+}
+.service .container h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+.list h3{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    float: left;
+}
+.list p{
+    float: left;
+    text-align: left;
+}
+.list a.btn{
+    margin-top: 20px;
+}
+.list{
+    margin-bottom: 60px;
+}
+.imageggallery{
+    background-color: #ffcb0f;
+}
+.imageggallery.container h2{
+    font-size: 25px;
+    color: aliceblue;
+}
+.imageggallery  p{
+    color: black;
+ 
+}
+
+.upper ul li a{
+    color: black;
+    font-size: small;
+    border-radius: 15px;
+    padding: 7px 20px;
+    margin: 15px;
+}
+.upper ul li{
+    margin-top: 50px;
+}
+ ul li a:hover{
+    color: white;
+    background-color: black;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 15px;
+}
+
+.gallery li:first-child{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+
+.review .container{
+    margin-top: 50px;
+}
+.review .container p{
+margin-bottom: 30px;
+font-size: 15px;
+}
+.review .container h2{
+    margin-bottom: 15px;
+}
+.content{
+    background-color: #ffcb0f;
+}
+.container .question p{
+    float: left;
+    margin-top: 20px;
+}
+.container .question h2{
+    float: left;
+}
+.form input{
+    padding: 15px;
+    margin: 5px 5px;
+    margin-top: 10px;
+   border-radius: 10px;
+   border: 0;
+}
+.form .Message{
+width: 23%;
+}
+.form .Submit{
+    width: 5%;
+    background-color: #484848;
+    color: white;
+}
+
+
+.clientreview{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:50px;
+    margin-bottom: 30px;
+}
+
+.cont{
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 40px 20px 30px 60px;
+    font-size: 14px;
+    color: #393939;
+    text-align: left;
+    margin-bottom: 40px;
+    position: relative;
+    transition: all 1s;
+    top: 0;
+}
+
+.cont::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #e5e5e5;
+        transition: all 1s;
+    
+}
+
+.cont:before{
+    display: block;
+    content: url("../images/quote.png");
+    width: 44px;
+    height: 27px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+.clientPic{
+    width: 81px;
+    height: 81px;
+    border-radius:100px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.clientPic img{
+    width: 110%;
+}
+
+.testimonials h3{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.testimonials:hover .cont{
+    background-color: #ffcb0f;
+    top: -20px;
+    
+}
+
+.testimonials:hover .cont::after{
+    border-top: 10px solid #ffcb0f;
+}
+
+.testimonials:hover .cont:before{
+    opacity: 1;
+}
+
+
+footer img{
+    width: 100%;
+}
