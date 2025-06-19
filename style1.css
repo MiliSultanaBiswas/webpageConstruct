@@ -1,0 +1,744 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Lato:wght@300;400;700;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*
+
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+.container {
+    width: 98%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.first-sec{
+    background-color: #ffcb0f;
+    width: 100%;
+    height: 43px;
+}
+
+.info-left {
+    float: left;
+    margin-top: 14px;
+    display: flex;
+   
+}
+.info-left li {
+    padding-inline: 23px;
+}
+.info-left i{
+    margin-right: 12px;
+}
+.info-left li a{
+  color: #222222;
+}
+.info-right {
+    float: right;
+    margin-top: 14px;
+    display: flex;
+   
+}
+.info-right li {
+    padding-inline: 8px;
+    color:#222222;
+   
+  }
+  .info-right li a{
+    color: #222222;
+  }
+  
+  
+  li{
+    list-style-type: none;
+  }
+
+    /* navbar */
+    
+     .logo a{
+        color: #ffcb0f;
+        text-transform: uppercase;
+         
+    }
+    .logo-nav .logo{
+        width: 18px; 
+        /* padding-top: 20px; */
+        margin-left: 26px;
+        font-size: 27px;
+        
+    }
+    .logo-nav span{
+        font-size: 14px;
+        color: #adadad;
+       padding-left: 48px;
+    }
+
+  .nav-bar {
+    background-color: #222533;
+    height: 90px;
+  }
+  .nav{
+  
+    float: right;
+   
+  }
+ 
+.nav li {
+    display: inline;
+    padding: 10px 22px;
+    font-size: 12pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color:white;
+    text-transform: uppercase;
+    
+  }
+  .nav li a{
+    color: aliceblue;
+  }
+  .nav li:hover{
+   border-radius: 8px;
+    background-color: rgb(162, 162, 156);
+    transition: all .7s;
+   
+  }
+  a{
+    text-decoration: none;
+  }
+
+  /* BANNER */
+  .banner{
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    height: 847px;
+    text-align: center; 
+    color: white;
+  }
+  .banner-count{
+    padding-top: 120px;
+  }
+  .banner-count .certi-engi{
+    font-size:40px ;
+    font-family: 'Lato', sans-serif; 
+    margin-bottom: 30px;
+   
+
+  }
+  .banner-count h1 {
+    font-size: 60px;
+    color: white;
+    /* line-height: 190px; */
+    /* padding: 15px 0 15px; */
+    
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+   
+  }
+  .banner-count span{
+    color: #ffcb0f;
+    margin-bottom: 30px;
+    
+  }
+  .banner-count p{
+    font-size: 16pt;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-bottom:70px ;
+    margin-top: 50px;
+  }
+  /* .banner-count .btn{
+    margin-bottom:20px;
+  } */
+
+  .btn {
+    padding: 0 30px;
+    line-height: 45px;
+    display: inline-block;
+    background-color: #ffcb0f;
+    color: rgb(255, 253, 253);
+    border-radius: 5px;
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .banner-count a.btn {
+    margin: 10px 20px 0 0px;
+    
+  }
+ 
+  
+  .btn:hover {
+    background-color: #222533;
+   color: #ffffff;
+  }
+
+
+
+  .about-sec {
+    max-width: 1200px;
+    width: 98%;
+    height: 470px;
+    margin: auto;
+    margin-top: 95px;
+  }
+  
+  .aboutcompany {
+    float: left;
+    width: 55%;
+  }
+  
+  .aboutcompany h2 {
+    font-family: "Lato", sans-serif;
+    color: #ffcb0f;
+    font-size: 41px;
+    font-weight: 900;
+  }
+  .aboutcompany span {
+    font-size: 26px;
+    font-family: "Roboto Flex", sans-serif;
+    color: #484848;
+  }
+  .about-text {
+    color: #727171;
+    font-size: 16px;
+    padding-top: 15px;
+    width: 610px;
+    padding-bottom: 10px;
+  }
+  
+  /* aboutcompany button */
+  
+  .aboutcompany .btn:hover {
+    background-color: rgb(43, 43, 44);
+  }
+  .aboutcompany a:hover {
+    color: #dcdddf;
+  }
+  
+  .about-sec {
+    position: relative;
+  }
+  .about-man {
+    position: absolute;
+    top: -92px;
+  }
+  
+  /* .about-img-one {
+    background-image: url(../image/background.jpg);
+    float: right;
+    width: 475px;
+    height: 300px;
+    margin: 0;
+  } */
+  
+  /* 04-Why Choose Us */
+  .choose-us-section {
+    background-color: #ecf0f3;
+    width: 100%;
+    height: 570px;
+    margin-top: -100px;
+  }
+  .choose-us-bg-div {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .choose-us-bg-div h2 {
+    text-align: center;
+    padding: 76px 0 22px 0;
+    color: #7b7d80;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .choose-us-bg-div {
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6d6d6e;
+    text-align: center;
+  }
+  
+  .whyList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 60px;
+    margin-top: 30px;
+  }
+  
+  .whyList li {
+    list-style-type: none;
+  }
+  
+  /* our-services */
+  
+  .our-services {
+    max-width: 1200px;
+    width: 98%;
+    margin: auto;
+  }
+  .our-services h2 {
+    padding: 90px 0 56px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: #484848;
+  }
+  .our-services-ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 43px;
+  }
+  .our-services h3 {
+    padding: 34px 0 25px;
+    font-size: 20px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 300;
+    color: #403e3e;
+  }
+  
+  .our-services p {
+    margin-bottom: 35px;
+    font-size: 15px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    color: #969696;
+    line-height: 20pt;
+  }
+  .our-services .btn {
+    margin-bottom: 90px;
+  }
+  .our-services .btn:hover {
+    background-color: #424141;
+    color: white;
+  }
+  
+  /* Made-with-love */
+  .Made-with-love {
+    background-image: url(../image/back-ground.jpg);
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+  .Made-with-love h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 70px 0 42px;
+    font-size: 30px;
+    color: #222533;
+    font-weight: 700;
+  }
+  
+  .Made-with-love p {
+    text-align: center;
+    margin: 0 234px;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222533;
+    padding-bottom: 60px;
+  }
+  
+  .Made-with-love-ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 68px;
+  }
+  .Made-with-love-ul li:hover {
+    border-radius: 20px;
+    /* background-color: #403e3e;*/
+    color: white;
+    cursor: pointer;
+    transform: scale(130%);
+    transition: all 0.6s;
+  
+    /* font-size:20px ;
+      
+      transition: all .5s;
+      */
+  }
+  .Made-with-love-ul {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* GRID IMG */
+  .img-list {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .img-list img {
+    width: 100%;
+    /* transform: scale(120%); */
+    transition: all 5s;
+  }
+  .img-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .img-list figure:first-child {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+  .img-list figure:hover {
+    transform: scale(95%);
+    transition: all 1s;
+  }
+  
+  /* review */
+  
+  .contaner {
+    /* max-width: 1200px; */
+    width: 100%;
+    /* height: auto; */
+    height: 700px;
+    /* margin: auto; */
+    background-image: url(../image/review-banner.jpg);
+    /* background-position:300px; */
+    background-size: cover;
+  }
+  .review-sec {
+    width: 98%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  .review-write {
+    padding-bottom: 58px;
+  }
+  .review-write h2 {
+    padding: 60px 0 30px 0;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+  }
+  .review-write p {
+    font-size: 15px;
+    line-height: 17pt;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .reviewList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+  }
+  
+  .reviewList li .first-review {
+    box-sizing: border-box;
+    width: 324px;
+    height: 242px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 42px 27px 30px 50px;
+    /* margin-bottom: 20px; */
+    position: relative;
+    transition: all 0.5s;
+    font-size: 16px;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  .reviewList li .first-review:hover {
+    background-color:#FFCB0F;
+    width: 400px;
+    height: 280px;
+    font-size: 20px;
+    /* overflow: hidden; */
+  }
+  
+  .first-review i {
+    position: absolute;
+    top: 33px;
+    left: 30px;
+    font-size: large;
+  }
+  
+  .review-sec figure {
+    margin-top: 30px;
+  }
+  
+  .first-review span {
+    /* width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #b62121;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -10px;  
+    text-indent: -20000px; 
+    transition: all 1s; */
+  
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #e5e5e5;
+    text-indent: -20000px;
+    left: 50%;
+    bottom: -20px;
+    position: absolute;
+  }
+  /* .first-review :hover span{
+    border-top: 15px;
+    background-color: #050505;
+  } */
+  .reviewList li div:hover span {
+    border-top: 20px solid#ffcb0f;
+  }
+  
+  /* question */
+  
+  .contact {
+    width: 100%;
+    height: 180px;
+    background-color: #ffcb0f;
+  }
+  .conatct-div {
+    max-width: 1200px;
+    width: 98%;
+    margin: auto;
+  }
+  .ques {
+    float: left;
+    padding: 47px 30px 60px 0;
+    font-family: "Roboto Flex", sans-serif;
+    text-transform: uppercase;
+  }
+  .ques p {
+    font-size: 30px;
+  }
+  .ques span {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  .form {
+    float: right;
+    padding: 33px 0px 4px 0px;
+    width: 46%;
+  }
+  .form input {
+    padding: 15px 0 15px 20px;
+    border-radius: 15px;
+    border: 0;
+    margin: 5px 5px;
+  }
+  .form .name {
+    width: 40%;
+  }
+  .form .email {
+    width: 40%;
+  }
+  .form .massage {
+    width: 60%;
+    height: auto;
+  }
+  
+  .form .submit {
+    width: 20%;
+    background-color: #403e3e;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 28px 14px 28px;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    width: 100%;
+    background-image: url(../image/footer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer-1st {
+    height: auto;
+    max-width: 1200px;
+    width: 98%;
+    margin: auto;
+    color: white;
+  }
+  .footer-1st {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    padding: 115px 0 70px 0;
+  }
+  .footer-1st h3 {
+    font: 25px "Roboto Flex", sans-serif;
+    color: white;
+    font-weight: 200;
+    padding-bottom: 40px;
+  }
+  /* ABOUT COMPANY START */
+  
+  .abt-com-sec A {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: yellow;
+    line-height: 10pt;
+  }
+  .abt-com-sec h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: "Roboto Flex", sans-serif;
+    padding-bottom: 30px;
+  }
+  .abt-com-sec p {
+    font-family: "Roboto Flex", sans-serif;
+    line-height: 30px;
+    text-align: left;
+  }
+ 
+    .s-media i{
+      font-size: 23px;
+      padding: 10px;
+      background-color: yellow;
+      color: black;
+      height: 45px;
+      width: 45px;
+     margin-inline-start: 5px;
+      border-radius: 100%;
+
+    }
+   
+   .s-media i:hover{
+    background-color: #403e3e;
+    color: white;
+    
+    font-size: 25px;
+   
+    cursor: pointer;
+  }
+ 
+  /* ABOUT COMPANY END */
+  
+  /* EXPLOR LINK START */
+  .explo-link-li li a {
+    color: white;
+    margin-left: 20px;
+  }
+  .explo-link-li li a:hover {
+    color: #caba0c;
+    text-decoration: underline;
+   
+  }
+  .explo-link-li li {
+    padding-bottom: 19px;
+    padding-right: 100px;
+    /* list-style-image: url(../image/Untitled-1.gif); */
+    color: #fff;
+  }
+  .explo-link-li li:hover{
+    color: yellow;
+    
+  
+  }
+  
+  /* LASTEST POST START */
+  .AUG .circel {
+    float: left;
+    height: 47px;
+    width: 47px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: solid 2px #fff;
+  }
+  .latest-post span {
+    display: block;
+    font-size: 16px;
+    /* line-height: 22px; */
+    padding-top: 5px;
+    text-align: center;
+  }
+  
+  .latest-post p {
+    float: right;
+    width: calc(100% - 60px);
+  }
+  /* width: calc(100% - 65px)
+    } */
+  .AUG li {
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  /* LASTEST POST END */
+  
+        /* 
+              grid img */
+  .our-services-ul li img {
+    width: 90%;
+  }
+   /* 
+              grid img  */
+  
+              /* .contact-us start */
+  
+  .contact-us .contactUl li{
+    font-size:15px ;
+    padding-bottom:15px;
+  }
+  .contact-us .contactUl li:hover{
+    color: yellow;
+    text-decoration: underline;
+  }
+  .extraPh{
+    margin-left: 43px;
+    margin-top: -10px;
+  }
+  .extraPh a{
+    color: #fff;
+  }
+  .contact-us .contactUl li .fa-solid{
+    margin-right: 30px;
+  }
+  
+  
+  .contactUl a{
+    color: #fff;
+  }
+   
+  
+              /* .contact-us end*/
+              /* copyright */
+  
+  .copyright{
+    width: 100%;
+    background-color:#1a1c27 ;
+    height: 81px;
+    color: #fff;
+    
+  }
+  .copyright p {
+    text-align: center;
+    font-size: 15px;
+  
+    padding: 30px 0;
+  }
+  .copyright a{
+    color: rgb(249, 245, 5);
+  }
+*/
+  
